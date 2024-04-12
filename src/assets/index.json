@@ -1,0 +1,239 @@
+[
+    {
+        "id": 1,
+        "caption": "African Yam",
+        "icon": "./src/assets/images/AfricanYam.jpg",
+        "description": "Yam from African Civilization"
+    },
+    
+    {
+        "id": 2,
+        "caption": "Almond Milk",
+        "icon": "./src/assets/images/Almond_Milk.png",
+        "description": "Milk made from Almonds"
+    },
+
+    {
+        "id": 3,
+        "caption": "Apple",
+        "icon": "./src/assets/images/Apple.jpg",
+        "description": "The fruit Apple"
+    },
+
+    {
+        "id": 4,
+        "caption":"Avocado",
+        "icon": "./src/assets/images/Avocado.png",
+        "description": "Avocado Pear, the Green thing with the walnut-like seed"
+    },
+
+    {
+        "id": 5,
+        "caption": "Baked Beans",
+        "icon": "./src/assets/images/Baked_Beans.jpeg",
+        "description": "Heinz Baked Beans that are soaked in tomato sauce"
+    },
+
+    {
+        "id": 6,
+        "caption": "Beef",
+        "icon": "./src/assets/images/Beef.jpg",
+        "description": "Beef, the meat from a cow or bull, usually cow though"
+    },
+
+    {
+        "id": 7,
+        "caption":"Beetroot",
+        "icon": "./src/assets/images/beetroot.jpg",
+        "description": "A vegetable with a purple-pink inner colour that stains"
+    },
+
+    {
+        "id": 8,
+        "caption": "Ice Cream",
+        "icon": "./src/assets/images/Blue_Bell_Tin_Roof_Ice_Cream.jpg",
+        "description": "Ice cream from the brand Blue Bell, Tin Roof Flavoured"
+    },
+
+    {
+        "id": 9,
+        "caption": "Butter",
+        "icon":"./src/assets/images/Butter.jpg",
+        "description": "Unsalted butter"
+    },
+
+    {
+        "id": 10,
+        "caption": "Cabbage",
+        "icon": "./src/assets/images/Cabbage.jpeg",
+        "description": "The Vegetable Cabbage"
+    },
+
+    {
+        "id": 11,
+        "caption": "Variety Canned Pack",
+        "icon": "./src/assets/images/Canned_Pack.jpeg",
+        "description": "A Canned pack of a variety of items"
+    },
+
+    {
+        "id": 12,
+        "caption": "Carrot",
+        "icon": "./src/assets/images/Carrot.jpg",
+        "description": "The Vegetable Carrot"
+    },
+
+    {
+        "id": 13,
+        "caption": "Chicken Lucheon Meat",
+        "icon": "./src/assets/images/Chicken_Luncheon_Meat.jpeg",
+        "description": "Zwan Chicken Luncheon meat"
+    },
+
+    {
+        "id": 14,
+        "caption": "Chicken Sausage",
+        "icon": "./src/assets/images/Chicken_Sausage.jpg",
+        "description": "Chicken sausage pack"
+    },
+
+    {
+        "id": 15,
+        "caption": "Unshelled Coconut",
+        "icon": "./src/assets/images/Coconut_(Unshelled).jpg",
+        "description": "The fruit cocnut that has been deshelled"
+    },
+
+    {
+        "id": 16,
+        "caption": "Canned Coke-a-cola",
+        "icon": "./src/assets/images/Coke_Canned.jpg",
+        "description": "The canned version of coke...not the drug though"
+    },
+
+    {
+        "id": 17,
+        "caption": "Corned Beef",
+        "icon": "./src/assets/images/Corned_Beef.jpeg",
+        "description": "Exetar Corned Beef"
+    },
+
+    {
+        "id": 18,
+        "caption": "Cottage Cheese",
+        "icon": "./src/assets/images/Cottage_Cheese.png",
+        "description": "Sealtest Cottage Cheese"
+    },
+
+    {
+        "id": 19,
+        "caption": "Cucumbers",
+        "icon": "./src/assets/images/Cucumbers.jpeg",
+        "description": "The Vegetable Cucumber"
+    },
+
+    {
+        "id": 20,
+        "caption": "Custard",
+        "icon": "./src/assets/images/Custard.jpg",
+        "description": "Vanilla Custard"
+    },
+
+    {
+        "id": 21,
+        "caption": "Sour Cream",
+        "icon": "./src/assets/images/Daisy_Sour_Cream.jpg",
+        "description": "The sour cream from the brand Daisy"
+    },
+
+    {
+        "id": 22,
+        "caption": "Doritos",
+        "icon": "./src/assets/images/Doritos.jpeg",
+        "description": "The Vegetable Cabbage"
+    },
+
+    {
+        "id": 23,
+        "caption": "Egg",
+        "icon": "./src/assets/images/Egg.jpg",
+        "description": "The Vegetable Cabbage"
+    },
+
+    {
+        "id": 24,
+        "caption": "Evaporated Milk",
+        "icon": "./src/assets/images/Evaporated_Milk.jpg",
+        "description": "The Vegetable Cabbage"
+    },
+
+    {
+        "id": 25,
+        "caption": "Canned Fanta",
+        "icon": "./src/assets/images/Fanta_Canned.png",
+        "description": "The Vegetable Cabbage"
+    },
+
+    {
+        "id": 26,
+        "caption": "Cabbage",
+        "icon": "./src/assets/images/Cabbage.jpg",
+        "description": "The Vegetable Cabbage"
+    },
+
+    {
+        "id": 10,
+        "caption": "Cabbage",
+        "icon": "./src/assets/images/Cabbage.png",
+        "description": "The Vegetable Cabbage"
+    },
+
+    {
+        "id": 10,
+        "caption": "Cabbage",
+        "icon": "./src/assets/images/Cabbage.png",
+        "description": "The Vegetable Cabbage"
+    },
+
+    {
+        "id": 10,
+        "caption": "Cabbage",
+        "icon": "./src/assets/images/Cabbage.png",
+        "description": "The Vegetable Cabbage"
+    },
+
+    {
+        "id": 10,
+        "caption": "Cabbage",
+        "icon": "./src/assets/images/Cabbage.png",
+        "description": "The Vegetable Cabbage"
+    },
+
+    {
+        "id": 10,
+        "caption": "Cabbage",
+        "icon": "./src/assets/images/Cabbage.png",
+        "description": "The Vegetable Cabbage"
+    },
+
+    {
+        "id": 10,
+        "caption": "Cabbage",
+        "icon": "./src/assets/images/Cabbage.png",
+        "description": "The Vegetable Cabbage"
+    },
+
+    {
+        "id": 10,
+        "caption": "Cabbage",
+        "icon": "./src/assets/images/Cabbage.jpeg",
+        "description": "The Vegetable Cabbage"
+    },
+
+    {
+        "id": 10,
+        "caption": "Cabbage",
+        "icon": "./src/assets/images/Cabbage.jpeg",
+        "description": "The Vegetable Cabbage"
+    }
+]
