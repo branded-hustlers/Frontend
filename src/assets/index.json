@@ -2,238 +2,350 @@
     {
         "id": 1,
         "caption": "African Yam",
-        "icon": "./src/assets/images/AfricanYam.jpg",
+        "icon": "./public/Images/ProductImages/African_Yam.png",
         "description": "Yam from African Civilization"
     },
     
     {
         "id": 2,
         "caption": "Almond Milk",
-        "icon": "./src/assets/images/Almond_Milk.png",
+        "icon": "./public/Images/ProductImages/Almond_Milk.png",
         "description": "Milk made from Almonds"
     },
 
     {
         "id": 3,
         "caption": "Apple",
-        "icon": "./src/assets/images/Apple.jpg",
+        "icon": "./public/Images/ProductImages/Apple.png",
         "description": "The fruit Apple"
     },
 
     {
         "id": 4,
         "caption":"Avocado",
-        "icon": "./src/assets/images/Avocado.png",
+        "icon": "./public/Images/ProductImages/Avocado.png",
         "description": "Avocado Pear, the Green thing with the walnut-like seed"
     },
 
-    {****
+    {
         "id": 5,
         "caption": "Baked Beans",
-        "icon": "./src/assets/images/Baked_Beans.jpeg",
+        "icon": "./public/Images/ProductImages/Baked_Beans.png",
         "description": "Heinz Baked Beans that are soaked in tomato sauce"
     },
 
     {
         "id": 6,
-        "caption": "Beef",
-        "icon": "./src/assets/images/Beef.jpg",
-        "description": "Beef, the meat from a cow or bull, usually cow though"
+        "caption": "Bean",
+        "icon": "./public/Images/ProductImages/Bean.png",
+        "description": "A legume that people like to eat"
     },
 
     {
         "id": 7,
-        "caption":"Beetroot",
-        "icon": "./src/assets/images/beetroot.jpg",
-        "description": "A vegetable with a purple-pink inner colour that stains"
+        "caption": "Beef",
+        "icon": "./public/Images/ProductImages/Beef.png",
+        "description": "Beef, the meat from a cow or bull, usually cow though"
     },
 
     {
         "id": 8,
-        "caption": "Ice Cream",
-        "icon": "./src/assets/images/Blue_Bell_Tin_Roof_Ice_Cream.jpg",
-        "description": "Ice cream from the brand Blue Bell, Tin Roof Flavoured"
+        "caption":"Beetroot",
+        "icon": "./public/Images/ProductImages/beetroot.png",
+        "description": "A vegetable with a purple-pink inner colour that stains"
     },
 
     {
         "id": 9,
         "caption": "Butter",
-        "icon":"./src/assets/images/Butter.jpg",
+        "icon":"./public/Images/ProductImages/Butter.png",
         "description": "Unsalted butter"
     },
 
     {
         "id": 10,
         "caption": "Cabbage",
-        "icon": "./src/assets/images/Cabbage.jpeg",
+        "icon": "./public/Images/ProductImages/Cabbage.png",
         "description": "The Vegetable Cabbage"
-    },
-
-    {
-        "id": 11,
-        "caption": "Variety Canned Pack",
-        "icon": "./src/assets/images/Canned_Pack.jpeg",
-        "description": "A Canned pack of a variety of items"
     },
 
     {
         "id": 12,
         "caption": "Carrot",
-        "icon": "./src/assets/images/Carrot.jpg",
+        "icon": "./public/Images/ProductImages/Carrot.png",
         "description": "The Vegetable Carrot"
     },
 
     {
         "id": 13,
-        "caption": "Chicken Lucheon Meat",
-        "icon": "./src/assets/images/Chicken_Luncheon_Meat.jpeg",
+        "caption": "Cereal",
+        "icon": "./public/Images/ProductImages/Cereal.png",
         "description": "Zwan Chicken Luncheon meat"
     },
 
     {
         "id": 14,
+        "caption": "Chicken Breast",
+        "icon": "./public/Images/ProductImages/Chicken_Breast.png",
+        "description": "Chicken sausage pack"
+    },
+    {
+        "id": 15,
         "caption": "Chicken Sausage",
-        "icon": "./src/assets/images/Chicken_Sausage.jpg",
+        "icon": "./public/Images/ProductImages/Chicken_Sausage.jpg",
         "description": "Chicken sausage pack"
     },
 
     {
-        "id": 15,
+        "id": 16,
         "caption": "Unshelled Coconut",
-        "icon": "./src/assets/images/Coconut_(Unshelled).jpg",
+        "icon": "./public/Images/ProductImages/Coconut.png",
         "description": "The fruit cocnut that has been deshelled"
     },
 
     {
-        "id": 16,
-        "caption": "Canned Coke-a-cola",
-        "icon": "./src/assets/images/Coke_Canned.jpg",
+        "id": 17,
+        "caption": "Coca-cola",
+        "icon": "./public/Images/ProductImages/Coke.png",
         "description": "The canned version of coke...not the drug though"
     },
 
     {
-        "id": 17,
+        "id": 18,
         "caption": "Corned Beef",
-        "icon": "./src/assets/images/Corned_Beef.jpeg",
+        "icon": "./public/Images/ProductImages/Corned_Beef.png",
         "description": "Exetar Corned Beef"
     },
 
     {
-        "id": 18,
-        "caption": "Cottage Cheese",
-        "icon": "./src/assets/images/Cottage_Cheese.png",
-        "description": "Sealtest Cottage Cheese"
-    },
-
-    {
         "id": 19,
-        "caption": "Cucumbers",
-        "icon": "./src/assets/images/Cucumbers.jpeg",
-        "description": "The Vegetable Cucumber"
+        "caption": "Cottage Cheese",
+        "icon": "./public/Images/ProductImages/Cottage_Cheese.png",
+        "description": "Raw Cottage Cheese"
     },
 
     {
         "id": 20,
-        "caption": "Custard",
-        "icon": "./src/assets/images/Custard.jpg",
-        "description": "Vanilla Custard"
+        "caption": "Cucumbers",
+        "icon": "./public/Images/ProductImages//Cucumbers.png",
+        "description": "The Vegetable Cucumber"
     },
 
     {
         "id": 21,
-        "caption": "Sour Cream",
-        "icon": "./src/assets/images/Daisy_Sour_Cream.jpg",
-        "description": "The sour cream from the brand Daisy"
+        "caption": "Custard",
+        "icon": "./public/Images/ProductImages//Custard.png",
+        "description": "Vanilla Custard"
     },
 
     {
         "id": 22,
-        "caption": "Doritos",
-        "icon": "./src/assets/images/Doritos.jpeg",
-        "description": "The Vegetable Cabbage"
+        "caption": "Dragon_Fruit",
+        "icon": "./public/Images/ProductImages/Dragon_Fruit.png",
+        "description": "A fruit from Asia, this one has a red shell and a white inner"
     },
 
     {
         "id": 23,
         "caption": "Egg",
-        "icon": "./src/assets/images/Egg.jpg",
-        "description": "The Vegetable Cabbage"
+        "icon": "./public/Images/ProductImages/Egg.png",
+        "description": "The produce of a hen"
     },
 
     {
         "id": 24,
         "caption": "Evaporated Milk",
-        "icon": "./src/assets/images/Evaporated_Milk.jpg",
-        "description": "The Vegetable Cabbage"
+        "icon": "./public/Images/ProductImages/Evaporated_Milk.png",
+        "description": "Milk that has undergone the evaporated milkig process"
     },
 
     {
         "id": 25,
         "caption": "Canned Fanta",
-        "icon": "./src/assets/images/Fanta_Canned.png",
-        "description": "The Vegetable Cabbage"
+        "icon": "./public/Images/ProductImages/Fanta.png",
+        "description": "A canned version of the soda Fanta"
     },
 
     {
         "id": 26,
-        "caption": "Cabbage",
-        "icon": "./src/assets/images/Cabbage.jpg",
+        "caption": "Flour",
+        "icon": "./public/Images/ProductImages/Flour.png",
+        "description": "Bread, Cake, Flan, you name it, you use this to make it. Usually made from wheat unless otherwise stated"
+    },
+
+    {
+        "id": 27,
+        "caption": "Frozen Peas",
+        "icon": "./public/Images/ProductImages/Frozen_Peas.png",
+        "description": "The Vegetable Peas in a bag that is usually refrigerated"
+    },
+
+    {
+        "id": 28,
+        "caption": "Frozen Samosa",
+        "icon": "./public/Images/ProductImages/Frozen_Samosa.png",
+        "description": "The image is what you'll get if you cook them right, samosa's are an Indian snack and this one has chicken with vegetable filling"
+    },
+
+    {
+        "id": 29,
+        "caption": "Garlic",
+        "icon": "./public/Images/ProductImages/Garlic.png",
+        "description": "The Vegetable Garlic"
+    },
+
+    {
+        "id": 30,
+        "caption": "Ginger",
+        "icon": "./public/Images/ProductImages/Ginger.png",
+        "description": "The Vegetable Ginger"
+    },
+
+    {
+        "id": 31,
+        "caption": "Ice Cream",
+        "icon": "./public/Images/ProductImages/Ice_Cream.png",
+        "description": "Ice cream"
+    },
+
+    {
+        "id": 32,
+        "caption": "Ketchup",
+        "icon": "./public/Images/ProductImages/Ketchup.png",
+        "description": "The a condiment made based of tomatoes, has a fairly sweet taste"
+    },
+
+    {
+        "id": 33,
+        "caption": "Lettuce",
+        "icon": "./public/Images/ProductImages/Lettuce.png",
+        "description": "The leaves of the Vegetable Lettuce"
+    },
+
+    {
+        "id": 34,
+        "caption": "Mango",
+        "icon": "./public/Images/ProductImages/Mango.png",
+        "description": "The Fruit Mango"
+    },
+
+    {
+        "id": 35,
+        "caption": "Magerine",
+        "icon": "./public/Images/ProductImages/Magerine.png",
+        "description": "The hydrogen Infused Butter? Basically bootleg butter"
+    },
+
+    {
+        "id": 36,
+        "caption": "Mayonnaise",
+        "icon": "./public/Images/ProductImages/Mayonnaise.png",
         "description": "The Vegetable Cabbage"
     },
 
     {
-        "id": 10,
-        "caption": "Cabbage",
-        "icon": "./src/assets/images/Cabbage.png",
-        "description": "The Vegetable Cabbage"
+        "id": 37,
+        "caption": "Oats",
+        "icon": "./public/Images/ProductImages/Oats.png",
+        "description": "Oats"
     },
 
     {
-        "id": 10,
-        "caption": "Cabbage",
-        "icon": "./src/assets/images/Cabbage.png",
-        "description": "The Vegetable Cabbage"
+        "id": 38,
+        "caption": "Okro",
+        "icon": "./public/Images/ProductImages/Okro.png",
+        "description": "The Vegetable Okro"
     },
 
     {
-        "id": 10,
-        "caption": "Cabbage",
-        "icon": "./src/assets/images/Cabbage.png",
-        "description": "The Vegetable Cabbage"
+        "id": 39,
+        "caption": "Onion",
+        "icon": "./public/Images/ProductImages/Onion.png",
+        "description": "The Vegetable Onion"
     },
 
     {
-        "id": 10,
-        "caption": "Cabbage",
-        "icon": "./src/assets/images/Cabbage.png",
-        "description": "The Vegetable Cabbage"
+        "id": 40,
+        "caption": "Pasta",
+        "icon": "./public/Images/ProductImages/Pasta.png",
+        "description": "The food Pasta"
     },
 
     {
-        "id": 10,
-        "caption": "Cabbage",
-        "icon": "./src/assets/images/Cabbage.png",
-        "description": "The Vegetable Cabbage"
+        "id": 41,
+        "caption": "Pepsi",
+        "icon": "./public/Images/ProductImages/Pepsi.png",
+        "description": "The soda drink Pepsi in a canned form"
     },
 
     {
-        "id": 10,
-        "caption": "Cabbage",
-        "icon": "./src/assets/images/Cabbage.png",
-        "description": "The Vegetable Cabbage"
+        "id": 42,
+        "caption": "Raw Tuna",
+        "icon": "./public/Images/ProductImages/Raw_Tuna.png",
+        "description": "Raw Tuna Fish"
     },
 
     {
-        "id": 10,
-        "caption": "Cabbage",
-        "icon": "./src/assets/images/Cabbage.jpeg",
-        "description": "The Vegetable Cabbage"
+        "id": 43,
+        "caption": "Rice",
+        "icon": "./public/Images/ProductImages/Rice.png",
+        "description": "One of, if not the most common/eaten food in the world"
     },
 
     {
-        "id": 10,
-        "caption": "Cabbage",
-        "icon": "./src/assets/images/Cabbage.jpeg",
-        "description": "The Vegetable Cabbage"
+        "id": 44,
+        "caption": "Salmon",
+        "icon": "./public/Images/ProductImages/Salmon.png",
+        "description": "The fish Salmon raw and cut"
+    },
+
+    {
+        "id": 45,
+        "caption": "Sour Cream",
+        "icon": "./public/Images/ProductImages/Sour_Cream.png",
+        "description": "Sour cream, a condiment"
+    },
+
+    {
+        "id": 46,
+        "caption": "Sprite",
+        "icon": "./public/Images/ProductImages/Sprite.png",
+        "description": "The soda drink Sprite"
+    },
+
+    {
+        "id": 47,
+        "caption": "Starkist",
+        "icon": "./public/Images/ProductImages/Starkist.png",
+        "description": "Tuna Flakes from the brand Starkist"
+    },
+
+    {
+        "id": 48,
+        "caption": "Sweet_Potato",
+        "icon": "./public/Images/ProductImages/Sweet_Potato.png",
+        "description": "A variation of potatoes that are sweet with a slightly earthy taste"
+    },
+
+    {
+        "id": 49,
+        "caption": "Vegetable_Oil",
+        "icon": "./public/Images/ProductImages/Vegetable_Oil.png",
+        "description": "A condiment used in cooking"
+    },
+
+    {
+        "id": 50,
+        "caption": "Whipped Cream",
+        "icon": "./public/Images/ProductImages/Whipped_Cream.png",
+        "description": "A frosting?"
+    },
+
+    {
+        "id": 51,
+        "caption": "Yoghurt",
+        "icon": "./public/Images/ProductImages/Yoghurt.png",
+        "description": "Food made by fermenting milk"
     }
+
 ]
