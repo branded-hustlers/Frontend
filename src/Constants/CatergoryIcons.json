@@ -1,57 +1,58 @@
-[
+
+ [
     {
         "id": 1,
         "caption": "Beverages",
-        "icon": "Frontend/public/Images/CategoryIcons/Beverages_Icon.png",
+        "icon": "../public/Images/CategoryIcons/Beverages_Icon.png",
         "description": "Icon/image for the beverages category icon"
     },
 
     {
         "id": 2,
         "caption": "Canned Food",
-        "icon": "Frontend/public/Images/CategoryIcons/Canned_Foods_Icon.png",
+        "icon": "../Images/CategoryIcons/Canned_Foods_Icon.png",
         "desciption": "Icon/Imgae for the Canned Foods"
     },
 
     {
         "id": 3,
         "caption": "Condiments",
-        "icon": "Frontend/public/Images/CategoryIcons/Condiments_Icon.png",
+        "icon": "../Images/CategoryIcons/Condiments_Icon.png",
         "desciption": "Icon/Imgae for Condiments"
     },
 
     {
         "id": 4,
-        "caption": "Diary Products",
-        "icon": "Frontend/public/Images/CategoryIcons/Diary_Produce_Icon.png",
+        "caption": "Diary",
+        "icon": "../Images/CategoryIcons/Diary_Products_Icon.png",
         "desciption": "Icon/Imgae for Diary Poducts Foods" 
     },
 
     {
         "id": 5,
-        "caption": "Fresh Produce",
-        "icon": "Frontend/public/Images/CategoryIcons/Fresh_Produce_Icon.png" ,
+        "caption": "Greens",
+        "icon": "../Images/CategoryIcons/Fresh_Produce_Icon.png" ,
         "desciption": "Icon/Imgae for Fresh Products"
     },
 
     {
         "id": 6,
-        "caption": "Fozen Foods",
-        "icon": "Frontend/public/Images/CategoryIcons/Frozen_Foods_Icon.png",
+        "caption": "Fozen",
+        "icon": "../Images/CategoryIcons/Frozen_Foods_Icon.png",
         "desciption": "Icon/Imgae for Frozen Food Poducts"
     },
 
     {
         "id": 7,
         "caption": "Protein",
-        "icon": "Frontend/public/Images/CategoryIcons/Protein_Icon.png",
+        "icon": "../public/Images/CategoryIcons/Protein_Icon.png",
         "desciption": "Icon/Imgae for Protein Poducts"
     },
 
     {
         "id": 8,
         "caption": "Snacks",
-        "icon": "Frontend/public/Images/CategoryIcons/Snacks_Icon.png",
+        "icon": "../Images/CategoryIcons/Snacks_Icon.png",
         "desciption": "Icon/Imgae for Snacks"
     }
 ]
