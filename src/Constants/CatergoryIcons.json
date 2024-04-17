@@ -1,0 +1,58 @@
+
+ [
+    {
+        "id": 1,
+        "caption": "Beverages",
+        "icon": "../public/Images/CategoryIcons/Beverages_Icon.png",
+        "description": "Icon/image for the beverages category icon"
+    },
+
+    {
+        "id": 2,
+        "caption": "Canned Food",
+        "icon": "../Images/CategoryIcons/Canned_Foods_Icon.png",
+        "desciption": "Icon/Imgae for the Canned Foods"
+    },
+
+    {
+        "id": 3,
+        "caption": "Condiments",
+        "icon": "../Images/CategoryIcons/Condiments_Icon.png",
+        "desciption": "Icon/Imgae for Condiments"
+    },
+
+    {
+        "id": 4,
+        "caption": "Diary",
+        "icon": "../Images/CategoryIcons/Diary_Products_Icon.png",
+        "desciption": "Icon/Imgae for Diary Poducts Foods" 
+    },
+
+    {
+        "id": 5,
+        "caption": "Greens",
+        "icon": "../Images/CategoryIcons/Fresh_Produce_Icon.png" ,
+        "desciption": "Icon/Imgae for Fresh Products"
+    },
+
+    {
+        "id": 6,
+        "caption": "Fozen",
+        "icon": "../Images/CategoryIcons/Frozen_Foods_Icon.png",
+        "desciption": "Icon/Imgae for Frozen Food Poducts"
+    },
+
+    {
+        "id": 7,
+        "caption": "Protein",
+        "icon": "../public/Images/CategoryIcons/Protein_Icon.png",
+        "desciption": "Icon/Imgae for Protein Poducts"
+    },
+
+    {
+        "id": 8,
+        "caption": "Snacks",
+        "icon": "../Images/CategoryIcons/Snacks_Icon.png",
+        "desciption": "Icon/Imgae for Snacks"
+    }
+]
