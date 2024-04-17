@@ -9,12 +9,12 @@ const products = productsData.slice( 6 , 10)
       <h1 className=" text-green-600 text-4xl font-normal hover:cursor-text ">
         Best Sellers
       </h1>
-      <div className=" flex gap-5 mt-5 overflow-scroll ">
+      <div className=" grid grid-cols-4 gap-5 mx-3 mt-5 ">
       {products.map((products) => 
        <BestSellersCard key={products.id} imgURL={products.icon} 
                         description={products.description}
                         name={products.caption}
-                        price={products.price}/>)}
+                        price={products.price}/>)}             
       </div>                  
     </div>
   );
