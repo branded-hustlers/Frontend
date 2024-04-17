@@ -1,11 +1,6 @@
 import Navbar from "../Layouts/Navbar"
 import Sidebar from "../Layouts/Sidebar"
-import { faInfo, faUser } from '@fortawesome/free-solid-svg-icons'
-import { faHeart } from '@fortawesome/free-solid-svg-icons'
-import { faAddressBook } from '@fortawesome/free-solid-svg-icons'
-import { faMoneyBills } from '@fortawesome/free-solid-svg-icons'
-import { faCog } from '@fortawesome/free-solid-svg-icons'
-
+import InputBox from "../Components/InputBox"
 
 function PersonalInformation() {
  
@@ -15,9 +10,18 @@ function PersonalInformation() {
         <div className="flex">
           <Sidebar />        
           <div className="flex-grow">
-            <div className="text-center">
-              <h1>Did it work, yes ish</h1>
-              <p>Yes or no?</p>
+            <div>
+              <h1 className="text-green-600 text-center text-4xl mb-6">Personal Information</h1>
+              <form className="flex flex-col items-center">
+                <div className="flex flex-row">
+                  <InputBox placeholder="Surname:" type="text" />
+                  <InputBox placeholder="Othernames:" type="text" />
+                </div>
+                <InputBox placeholder="Email:" type="email" />
+                <InputBox placeholder="Username:" type="text" />
+                <InputBox placeholder="Password:" type="password" />
+                <InputBox placeholder="" type="date" />
+              </form>
             </div>
            </div>
         </div>
