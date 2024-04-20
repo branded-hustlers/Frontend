@@ -13,7 +13,7 @@ const OnSaleCard = ({ imgURL, description, name, price }) => {
 
   return (
     <div>
-      <div className=" flex gap-5 items-center w-[21rem] h-44 rounded-2xl p-0 bg-green-50 border border-gray-200">
+      <div className=" flex gap-5 items-center w-[21rem] h-44 rounded-2xl p-0 bg-green-200 border border-gray-200">
         <img src={imgURL} alt={description} width={150} height={200} />
 
         <div>
@@ -24,7 +24,7 @@ const OnSaleCard = ({ imgURL, description, name, price }) => {
             <div onClick={toggleLike}>
               <FontAwesomeIcon
                 icon={faHeart}
-                color={isLiked ? "red" : "green"}
+                color={isLiked ? "red" : "white"}
                 size="xl"
               />
             </div>

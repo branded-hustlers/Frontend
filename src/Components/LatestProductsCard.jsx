@@ -13,7 +13,7 @@ const LatestProductsCard = ({ imgURL, description, name, price }) => {
 
   return (
     <div>
-      <div className=" flex gap-5 items-center w-[21rem] h-44 rounded-2xl p-0 bg-green-50 border border-gray-200">
+      <div className=" flex gap-5 items-center w-[21rem] h-44 rounded-2xl p-0 bg-green-200 border border-gray-200">
         <img src={imgURL} alt={description} width={150} height={200} />
 
         <div>
@@ -22,7 +22,7 @@ const LatestProductsCard = ({ imgURL, description, name, price }) => {
 
           <div className=" flex justify-center items-center gap-5 mt-8">
            <div onClick={toggleLike}>
-             <FontAwesomeIcon icon={faHeart} color={ isLiked ?'red' : 'green'} size="xl" />
+             <FontAwesomeIcon icon={faHeart} color={ isLiked ?'red' : 'white'} size="xl" />
            </div>
             <CartButton label="Add To Cart" />
           </div>

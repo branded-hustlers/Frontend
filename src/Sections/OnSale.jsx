@@ -8,7 +8,7 @@ const OnSale = () => {
 
   return (
     <div className=" mx-12 mt-16">
-      <h1 className=" text-green-600 text-4xl font-normal hover:cursor-text ">
+      <h1 className=" text-green-600  text-5xl font-semibold hover:cursor-text ">
         On Sale
       </h1>
 
