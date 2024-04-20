@@ -1,8 +1,10 @@
 import React from 'react'
 
-const SaveButton = () => {
+const SaveButton = ({ label }) => {
   return (
-    <div>SaveButton</div>
+    <button className=" bg-white border-green text-green-600 px-3 rounded-xl  h-8">
+        {label}
+    </button>
   )
 }
 

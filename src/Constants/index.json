@@ -3,7 +3,7 @@
         "id": 1,
         "caption": "African Yam",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/African_Yam.png",
+        "icon": "/Images/ProductImages/African_Yam.png",
         "description": "Yam from African Civilization"
     },
     
@@ -11,7 +11,7 @@
         "id": 2,
         "caption": "Almond Milk",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Almond_Milk.png",
+        "icon": "/Images/ProductImages/Almond_Milk.png",
         "description": "Milk made from Almonds"
     },
 
@@ -19,7 +19,7 @@
         "id": 3,
         "caption": "Apple",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Apple.png",
+        "icon": "/Images/ProductImages/Apple.png",
         "description": "The fruit Apple"
     },
 
@@ -27,7 +27,7 @@
         "id": 4,
         "caption":"Avocado",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Avocado.png",
+        "icon": "/Images/ProductImages/Avocado.png",
         "description": "Avocado Pear, the Green thing with the walnut-like seed"
     },
 
@@ -35,7 +35,7 @@
         "id": 5,
         "caption": "Baked Beans",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Baked_Beans.png",
+        "icon": "/Images/ProductImages/Baked_Beans.png",
         "description": "Heinz Baked Beans that are soaked in tomato sauce"
     },
 
@@ -43,7 +43,7 @@
         "id": 6,
         "caption": "Bean",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Bean.png",
+        "icon": "/Images/ProductImages/Bean.png",
         "description": "A legume that people like to eat"
     },
 
@@ -51,7 +51,7 @@
         "id": 7,
         "caption": "Beef",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Beef.png",
+        "icon": "/Images/ProductImages/Beef.png",
         "description": "Beef, the meat from a cow or bull, usually cow though"
     },
 
@@ -59,7 +59,7 @@
         "id": 8,
         "caption":"Beetroot",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/beetroot.png",
+        "icon": "/Images/ProductImages/Beetroot.png",
         "description": "A vegetable with a purple-pink inner colour that stains"
     },
 
@@ -67,7 +67,7 @@
         "id": 9,
         "caption": "Butter",
         "price" : "$40.00",
-        "icon":"../Images/ProductImages/Butter.png",
+        "icon":"/Images/ProductImages/Butter.png",
         "description": "Unsalted butter"
     },
 
@@ -75,7 +75,7 @@
         "id": 10,
         "caption": "Cabbage",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Cabbage.png",
+        "icon": "/Images/ProductImages/Cabbage.png",
         "description": "The Vegetable Cabbage"
     },
 
@@ -83,7 +83,7 @@
         "id": 12,
         "caption": "Carrot",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Carrot.png",
+        "icon": "/Images/ProductImages/Carrot.png",
         "description": "The Vegetable Carrot"
     },
 
@@ -91,7 +91,7 @@
         "id": 13,
         "caption": "Cereal",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Cereal.png",
+        "icon": "/Images/ProductImages/Cereal.png",
         "description": "Zwan Chicken Luncheon meat"
     },
 
@@ -99,14 +99,14 @@
         "id": 14,
         "caption": "Chicken Breast",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Chicken_Breast.png",
+        "icon": "/Images/ProductImages/Chicken_Breast.png",
         "description": "Chicken sausage pack"
     },
     {
         "id": 15,
         "caption": "Chicken Sausage",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Chicken_Sausage.jpg",
+        "icon": "/Images/ProductImages/Chicken_Sausage.jpg",
         "description": "Chicken sausage pack"
     },
 
@@ -114,7 +114,7 @@
         "id": 16,
         "caption": "Unshelled Coconut",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Coconut.png",
+        "icon": "/Images/ProductImages/Coconut.png",
         "description": "The fruit cocnut that has been deshelled"
     },
 
@@ -122,15 +122,15 @@
         "id": 17,
         "caption": "Coca-cola",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Coke.png",
-        "description": "The canned version of coke...not the drug though"
+        "icon": "/Images/ProductImages/Coke.png",
+        "description": "The canned version of coke.not the drug though"
     },
 
     {
         "id": 18,
         "caption": "Corned Beef",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Corned_Beef.png",
+        "icon": "/Images/ProductImages/Corned_Beef.png",
         "description": "Exetar Corned Beef"
     },
 
@@ -138,7 +138,7 @@
         "id": 19,
         "caption": "Cottage Cheese",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Cottage_Cheese.png",
+        "icon": "/Images/ProductImages/Cottage_Cheese.png",
         "description": "Raw Cottage Cheese"
     },
 
@@ -146,7 +146,7 @@
         "id": 20,
         "caption": "Cucumbers",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages//Cucumbers.png",
+        "icon": "/Images/ProductImages//Cucumbers.png",
         "description": "The Vegetable Cucumber"
     },
 
@@ -154,7 +154,7 @@
         "id": 21,
         "caption": "Custard",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages//Custard.png",
+        "icon": "/Images/ProductImages//Custard.png",
         "description": "Vanilla Custard"
     },
 
@@ -162,7 +162,7 @@
         "id": 22,
         "caption": "Dragon_Fruit",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Dragon_Fruit.png",
+        "icon": "/Images/ProductImages/Dragon_Fruit.png",
         "description": "A fruit from Asia, this one has a red shell and a white inner"
     },
 
@@ -170,7 +170,7 @@
         "id": 23,
         "caption": "Egg",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Egg.png",
+        "icon": "/Images/ProductImages/Egg.png",
         "description": "The produce of a hen"
     },
 
@@ -178,7 +178,7 @@
         "id": 24,
         "caption": "Evaporated Milk",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Evaporated_Milk.png",
+        "icon": "/Images/ProductImages/Evaporated_Milk.png",
         "description": "Milk that has undergone the evaporated milkig process"
     },
 
@@ -186,7 +186,7 @@
         "id": 25,
         "caption": "Canned Fanta",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Fanta.png",
+        "icon": "/Images/ProductImages/Fanta.png",
         "description": "A canned version of the soda Fanta"
     },
 
@@ -194,7 +194,7 @@
         "id": 26,
         "caption": "Flour",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Flour.png",
+        "icon": "/Images/ProductImages/Flour.png",
         "description": "Bread, Cake, Flan, you name it, you use this to make it. Usually made from wheat unless otherwise stated"
     },
 
@@ -202,7 +202,7 @@
         "id": 27,
         "caption": "Frozen Peas",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Frozen_Peas.png",
+        "icon": "/Images/ProductImages/Frozen_Peas.png",
         "description": "The Vegetable Peas in a bag that is usually refrigerated"
     },
 
@@ -210,7 +210,7 @@
         "id": 28,
         "caption": "Frozen Samosa",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Frozen_Samosa.png",
+        "icon": "/Images/ProductImages/Frozen_Samosa.png",
         "description": "The image is what you'll get if you cook them right, samosa's are an Indian snack and this one has chicken with vegetable filling"
     },
 
@@ -218,7 +218,7 @@
         "id": 29,
         "caption": "Garlic",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Garlic.png",
+        "icon": "/Images/ProductImages/Garlic.png",
         "description": "The Vegetable Garlic"
     },
 
@@ -226,7 +226,7 @@
         "id": 30,
         "caption": "Ginger",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Ginger.png",
+        "icon": "/Images/ProductImages/Ginger.png",
         "description": "The Vegetable Ginger"
     },
 
@@ -234,7 +234,7 @@
         "id": 31,
         "caption": "Ice Cream",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Ice_Cream.png",
+        "icon": "/Images/ProductImages/Ice_Cream.png",
         "description": "Ice cream"
     },
 
@@ -242,7 +242,7 @@
         "id": 32,
         "caption": "Ketchup",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Ketchup.png",
+        "icon": "/Images/ProductImages/Ketchup.png",
         "description": "The a condiment made based of tomatoes, has a fairly sweet taste"
     },
 
@@ -250,7 +250,7 @@
         "id": 33,
         "caption": "Lettuce",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Lettuce.png",
+        "icon": "/Images/ProductImages/Lettuce.png",
         "description": "The leaves of the Vegetable Lettuce"
     },
 
@@ -258,7 +258,7 @@
         "id": 34,
         "caption": "Mango",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Mango.png",
+        "icon": "/Images/ProductImages/Mango.png",
         "description": "The Fruit Mango"
     },
 
@@ -266,7 +266,7 @@
         "id": 35,
         "caption": "Magerine",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Magerine.png",
+        "icon": "/Images/ProductImages/Magerine.png",
         "description": "The hydrogen Infused Butter? Basically bootleg butter"
     },
 
@@ -274,7 +274,7 @@
         "id": 36,
         "caption": "Mayonnaise",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Mayonnaise.png",
+        "icon": "/Images/ProductImages/Mayonnaise.png",
         "description": "The Vegetable Cabbage"
     },
 
@@ -282,7 +282,7 @@
         "id": 37,
         "caption": "Oats",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Oats.png",
+        "icon": "/Images/ProductImages/Oats.png",
         "description": "Oats"
     },
 
@@ -290,7 +290,7 @@
         "id": 38,
         "caption": "Okro",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Okro.png",
+        "icon": "/Images/ProductImages/Okro.png",
         "description": "The Vegetable Okro"
     },
 
@@ -298,7 +298,7 @@
         "id": 39,
         "caption": "Onion",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Onion.png",
+        "icon": "/Images/ProductImages/Onion.png",
         "description": "The Vegetable Onion"
     },
 
@@ -306,7 +306,7 @@
         "id": 40,
         "caption": "Pasta",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Pasta.png",
+        "icon": "/Images/ProductImages/Pasta.png",
         "description": "The food Pasta"
     },
 
@@ -314,7 +314,7 @@
         "id": 41,
         "caption": "Pepsi",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Pepsi.png",
+        "icon": "/Images/ProductImages/Pepsi.png",
         "description": "The soda drink Pepsi in a canned form"
     },
 
@@ -322,7 +322,7 @@
         "id": 42,
         "caption": "Raw Tuna",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Raw_Tuna.png",
+        "icon": "/Images/ProductImages/Raw_Tuna.png",
         "description": "Raw Tuna Fish"
     },
 
@@ -330,7 +330,7 @@
         "id": 43,
         "caption": "Rice",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Rice.png",
+        "icon": "/Images/ProductImages/Rice.png",
         "description": "One of, if not the most common/eaten food in the world"
     },
 
@@ -338,7 +338,7 @@
         "id": 44,
         "caption": "Salmon",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Salmon.png",
+        "icon": "/Images/ProductImages/Salmon.png",
         "description": "The fish Salmon raw and cut"
     },
 
@@ -346,7 +346,7 @@
         "id": 45,
         "caption": "Sour Cream",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Sour_Cream.png",
+        "icon": "/Images/ProductImages/Sour_Cream.png",
         "description": "Sour cream, a condiment"
     },
 
@@ -354,7 +354,7 @@
         "id": 46,
         "caption": "Sprite",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Sprite.png",
+        "icon": "/Images/ProductImages/Sprite.png",
         "description": "The soda drink Sprite"
     },
 
@@ -362,7 +362,7 @@
         "id": 47,
         "caption": "Starkist",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Starkist.png",
+        "icon": "/Images/ProductImages/Starkist.png",
         "description": "Tuna Flakes from the brand Starkist"
     },
 
@@ -370,7 +370,7 @@
         "id": 48,
         "caption": "Sweet_Potato",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Sweet_Potato.png",
+        "icon": "/Images/ProductImages/Sweet_Potato.png",
         "description": "A variation of potatoes that are sweet with a slightly earthy taste"
     },
 
@@ -378,7 +378,7 @@
         "id": 49,
         "caption": "Vegetable_Oil",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Vegetable_Oil.png",
+        "icon": "/Images/ProductImages/Vegetable_Oil.png",
         "description": "A condiment used in cooking"
     },
 
@@ -386,7 +386,7 @@
         "id": 50,
         "caption": "Whipped Cream",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Whipped_Cream.png",
+        "icon": "/Images/ProductImages/Whipped_Cream.png",
         "description": "A frosting?"
     },
 
@@ -394,7 +394,7 @@
         "id": 51,
         "caption": "Yoghurt",
         "price" : "$40.00",
-        "icon": "../Images/ProductImages/Yoghurt.png",
+        "icon": "/Images/ProductImages/Yoghurt.png",
         "description": "Food made by fermenting milk"
     }
 
