@@ -1,11 +1,18 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHeart } from "@fortawesome/free-regular-svg-icons";
+import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import CartButton from "./CartButton";
+import { useState } from "react";
 
 const RecommendedCard = ({ imgURL, description, name, price }) => {
+   const [isLiked, setIsLiked] = useState(false);
+
+   const toggleLike = () => {
+     setIsLiked(!isLiked);
+   };
+  
   return (
     <div>
-      <div className=" flex gap-5 items-center w-[21rem] h-44 rounded-2xl p-0 bg-green-50 border border-gray-200">
+      <div className=" flex gap-5 items-center w-[21rem] h-44 rounded-2xl p-0 bg-green-200 border border-gray-200">
         <img src={imgURL} alt={description} width={150} height={200} />
 
         <div>
@@ -13,9 +20,13 @@ const RecommendedCard = ({ imgURL, description, name, price }) => {
           <p className=" font-semibold">{price}</p>
 
           <div className=" flex justify-center items-center gap-5 mt-8">
-            <p className=" text-green-600 ">
-              <FontAwesomeIcon icon={faHeart} size="xl" />
-            </p>
+            <div onClick={toggleLike}>
+              <FontAwesomeIcon
+                icon={faHeart}
+                color={isLiked ? "red" : "white"}
+                size="xl"
+              />
+            </div>
             <CartButton label="Add To Cart" />
           </div>
         </div>
