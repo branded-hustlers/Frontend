@@ -3,6 +3,7 @@ import Navbar from '../Layouts/Navbar'
 import Sidebar from '../Layouts/Sidebar'
 import Line from '../Components/Line'
 import Dropdown from '../Components/Dropdown'
+import Footer from "../Sections/Footer"
 import SlidingButton from '../Components/SlidingButton'
 
 const Settings = () => {
@@ -51,6 +52,7 @@ const Settings = () => {
               
            </div>
         </div>
+        <Footer />
     </>
   )
 }

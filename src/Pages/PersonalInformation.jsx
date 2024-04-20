@@ -1,5 +1,6 @@
 import Navbar from "../Layouts/Navbar"
 import Sidebar from "../Layouts/Sidebar"
+import Footer from "../Sections/Footer"
 import InputBox from "../Components/InputBox"
 
 function PersonalInformation() {
@@ -29,6 +30,7 @@ function PersonalInformation() {
             </div>
            </div>
         </div>
+        <Footer />
       </>
     )
   }
