@@ -1,14 +1,16 @@
 import HomePage from "./Pages/HomePage"
-import PersonalInformation from "./Pages/PersonalInformation"
-import Settings from "./Pages/Settings"
+import PersonalInformationPage from "./Pages/PersonalInformationPage"
+import SettingsPage from "./Pages/SettingsPage"
+import AboutUsPage from "./Pages/AboutUsPage"
 
 function App() {
  
   return (
     <>
      <HomePage />
-     <PersonalInformation />
-     <Settings />
+     <PersonalInformationPage />
+     <SettingsPage />
+     <AboutUsPage />
     </>
   )
 }

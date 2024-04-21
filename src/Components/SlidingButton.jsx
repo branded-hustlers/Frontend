@@ -15,9 +15,14 @@ function SlidingButton() {
         checked={isActive}
         onChange={toggleActive}
       />
-      <span className="absolute left-0 inline-block w-6 h-6 rounded-full bg-white shadow-md transform transition-transform duration-300 ease-in-out">
-        <span className={`absolute top-0 right-0 inline-block w-6 h-6 rounded-full bg-white shadow-md transform transition-transform duration-300 ease-in-out ${isActive ? 'translate-x-8' : 'translate-x-0'}`}></span>
-      </span>
+      {!isActive && (
+        <span className="absolute left-0 inline-block w-6 h-6 rounded-full bg-white shadow-md transform transition-transform duration-800 ease-in-out">
+          <span className="absolute top-0 right-0 inline-block w-6 h-6 rounded-full bg-white shadow-md transform transition-transform duration-800 ease-in-out translate-x-0"></span>
+        </span>
+      )}
+      {isActive && (
+        <span className="absolute top-0 right-0 inline-block w-6 h-6 rounded-full bg-white shadow-md transform transition-transform duration-800 ease-in-out translate-x-1"></span>
+      )}
     </label>
   );
 }
