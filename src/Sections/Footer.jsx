@@ -6,7 +6,7 @@ const Footer = () => {
         <div className=" px-32 flex justify-center items-center gap-10">
           <div className=" border-2 border-green-600 w-[27rem]  h-32 rounded-xl p-4">
             <h1 className=" text-green-700 font-semibold text-xl ">
-              Newsletter
+              News
             </h1>
             <p className=" mt-1 text-green-900">
               Do not miss any promotion. Get additional discounts.
