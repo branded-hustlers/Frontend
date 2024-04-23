@@ -8,7 +8,7 @@ import SlidingButton from '../Components/SlidingButton'
 
 const Settings = () => {
 
-  const languages = ['English', 'Spanish', 'French', 'German'];
+  const languages = ['English', 'Spanish', 'French', 'German']
   const themes = ['Light', 'Dark']
   return (
     <>
