@@ -3,6 +3,7 @@ import { faHamburger } from '@fortawesome/free-solid-svg-icons'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom'
 
 
 const Navbar = () => {
@@ -25,10 +26,10 @@ const Navbar = () => {
         </div>
 
         <div className=' flex flex-1 justify-center items-center gap-10 text-lg font-medium text-[]'>
-         <a href="" className=" hover:text-green-500" >Home</a>
+         <Link to='/ ' className=" hover:text-green-500" >Home</Link>
          <a href="" className=" hover:text-green-500">About Us</a>
          <a href="" className=" hover:text-green-500">Categories</a>
-         <a href="" className=" hover:text-green-500">Something</a>
+         <Link to='/ShopPage' className=" hover:text-green-500">Shop</Link>
         </div>
 
         <div className=' relative'> 

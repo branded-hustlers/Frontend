@@ -1,6 +1,7 @@
 import Button from '../Components/Button';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -21,10 +22,13 @@ const Hero = () => {
                 Sale Up To <span className=" text-green-400"> 20% </span> Off
               </p>
               <p className=" text-white text-xl mt-2 mb-4"> We Deliver. You Enjoy.</p>
+            
+            <Link to='/ShopPage'>
               <Button
                 label="SHOP NOW"
                 icon={<FontAwesomeIcon icon={faArrowRight} />}
               />
+            </Link>
             </div>
 
             <img
