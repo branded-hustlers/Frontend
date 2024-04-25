@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Layouts/Navbar'
 import Footer from '../Sections/Footer'
 import FeatureBox from '../Components/FeatureBox'
+import InfoBox from '../Components/InfoBox'
 
 const AboutUsPage = () => {
   return (
@@ -11,25 +12,30 @@ const AboutUsPage = () => {
      <div>
      </div>
      <FeatureBox
-        imageSrc="./Public/Images/ProductImages/Beetroot.png"
-        altText="Beetroot"
-        textContent="Pdew mf dw,snckdwnjcecenwdewj kcnede wdkewn djkewd fewdcew ew ewjk ewjke dwjk ndsjkdw ew kjdewc dcdc ec enenefreh rekjn efjkek cece her eer creerndf whfbr vjdhbwe dxcdscnd scnjkdcnwdjck ndjncdjc ndjckdn sjc dcdncjknewjnewcd . ejkne ferj ej e ec ernernfe erjf ekjf erj erfnre kre fkjr frefre fref ree "
+        imageSrc="./public/Images/AboutUsImages/OurHistory.png"
+        altText="Histroy"
+        textContent="Explore our comprehensive grocery management system designed to streamline inventory management, optimize supply chain logistics, and enhance customer experience through user-friendly interfaces and robust features "
         imagePosition="right"
         heading="Our History"
       />
       <FeatureBox
-        imageSrc="./Public/Images/ProductImages/Coke.png"
-        altText="Coke"
-        textContent="Pdew mf dw,snckdwnjcecenwdewj kcnede wdkewn djkewd fewdcew ew ewjk ewjke dwjk ndsjkdw ew kjdewc dcdc ec enenefreh rekjn efjkek cece her eer creerndf whfbr vjdhbwe dxcdscnd scnjkdcnwdjck ndjncdjc ndjckdn sjc dcdncjknewjnewcd . ejkne ferj ej e ec ernernfe erjf ekjf erj erfnre kre fkjr frefre fref ree "
+        imageSrc="./public/Images/AboutUsImages/OurService.jpeg"
+        altText="Services"
+        textContent="Founded by a team of passionate students, our journey began with a vision to revolutionize grocery management systems. Over the years, we have evolved through relentless innovation, collaborative efforts, and a commitment to excellence, striving to meet the evolving needs of the retail industry "
         imagePosition="left"
         heading="Our Services"
       />
-      <div>
-        Location box
+      <div className='flex flex-row gap-4'>
+      <InfoBox
+      heading="Location"
+      textContent="Pantang Junction, Adom Close, House No. 1"
+      />
+      <InfoBox
+      heading="Contact"
+      textContent="For more enquiries, call 0500872524"
+      />
       </div>
-      <div> 
-        Contact Us Box
-      </div>
+      
      <Footer />
     </>
   )
