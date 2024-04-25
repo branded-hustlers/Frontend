@@ -8,8 +8,8 @@ const FeatureBox = ({ imageSrc, altText, textContent, imagePosition, heading }) 
   return (
     <div className="flex items-center justify-center p-4">
       <div className={`flex flex-col ${imagePosition === 'left' ? 'order-1' : 'order-2'}`}>
-        <div className="mx-12 mb-2 text-green-700 text-3xl">{heading}</div> 
-        <div className={`flex-1 mx-12 mb-28 text-green-500 ${textContainerStyle}`}>
+        <div className="mx-12 my-6 text-green-700 text-3xl">{heading}</div> 
+        <div className={`flex-1 mx-12 mb-28 text-green-500 text-lg ${textContainerStyle}`}>
           {textContent}
         </div>
       </div>
