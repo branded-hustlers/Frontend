@@ -1,4 +1,3 @@
-import React from 'react'
 import Navbar from '../Layouts/Navbar'
 import Sidebar from '../Layouts/Sidebar'
 import Line from '../Components/Line'
