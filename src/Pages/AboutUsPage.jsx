@@ -3,6 +3,8 @@ import Navbar from '../Layouts/Navbar'
 import Footer from '../Sections/Footer'
 import FeatureBox from '../Components/FeatureBox'
 import InfoBox from '../Components/InfoBox'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faShare, faPhone, faCogs } from '@fortawesome/free-solid-svg-icons'
 
 const AboutUsPage = () => {
   return (
@@ -33,6 +35,7 @@ const AboutUsPage = () => {
       <InfoBox
       heading="Contact"
       textContent="For more enquiries, call 0500872524"
+      icons={[faCogs, faPhone, faPhone]}
       />
       </div>
       
