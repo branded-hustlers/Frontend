@@ -8,10 +8,10 @@ const InfoBox = ({heading, textContent, icons}) => {
     <div>
       <div className=" px-24 flex justify-center items-center ml-24 my-16">
           <div className="border-2 border-green-600 w-[27rem]  h-32 rounded-xl p-6">
-            <h1 className=" text-green-700 font-semibold text-xl ">
+            <h1 className=" text-green-700 font-semibold text-xl mr-4">
               {heading}
               {icons && icons.map((icon, index) => (
-               <FontAwesomeIcon key={index} icon={icon} className="mx-6" />
+               <FontAwesomeIcon key={index} icon={icon} className="mx-4" />
                ))}
             </h1>
             <p className=" mt-1 text-green-900">

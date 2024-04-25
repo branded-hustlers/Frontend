@@ -35,7 +35,7 @@ const AboutUsPage = () => {
       <InfoBox
       heading="Contact"
       textContent="For more enquiries, call 0500872524"
-      icons={[faCogs, faPhone, faPhone]}
+      icons={[faCogs, faPhone, faShare]}
       />
       </div>
       
