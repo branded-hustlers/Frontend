@@ -10,7 +10,7 @@ const AboutUsPage = () => {
   return (
     <>
      <Navbar />
-     <h1 className="text-green-700 text-center text-4xl mb-12">AboutUs</h1>
+     <h1 className="text-green-700 text-center text-4xl mt-6 mb-12">About Us</h1>
      <div>
      </div>
      <FeatureBox

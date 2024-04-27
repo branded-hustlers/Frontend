@@ -4,6 +4,7 @@ import ShopPage from "./Pages/ShopPage";
 import PersonalInformationPage from "./Pages/PersonalInformationPage";
 import SettingsPage from "./Pages/SettingsPage";
 import AboutUsPage from "./Pages/AboutUsPage";
+import SignInPage from "./Pages/SignInPage";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <PersonalInformationPage />
       <SettingsPage />
       <AboutUsPage />
+      <SignInPage />
     </BrowserRouter>
   );
 }
