@@ -1,20 +1,20 @@
-import React from 'react'
-import SignBox from '../Components/SignBox'
+import React from 'react';
+import SignUpForm from '../Components/SignUpForm'
 
 const SignInPage = () => {
   return (
-    <>
-    <div>
-    <img className='h-32 w-72 pl-8 pt-4' src="../Images/photo_2024-04-02_22-40-01.jpg"/>
-    <div className='flex'>
-    <img className='h-[100%] w-[55%]' src="./Images/SignInSignOutImage.png"/>
-    <div className='flex flex-grow'>
-    <SignBox />
+    <div className="flex h-screen">
+      <div className="flex items-start flex-col flex-grow"> {/* Ensure this div expands to fill available space */}
+        <img className='h-32 w-72 pl-8 pt-4' src="../Images/photo_2024-04-02_22-40-01.jpg" alt="Logo" />
+        <img className='h-[80%] w-[100%]' src="./Images/SignInSignOutImage.png" alt="LoginPicture" />
+      </div>
+      <div>
+        <div className='flex flex-grow w-[750px] rounded-tl-[65px] rounded-bl-[65px] bg-green-200 flex-col items-center justify-between px-14'>
+          <SignUpForm />
+        </div>
+      </div>
     </div>
-    </div>
-    </div>
-    </>
-  )
-}
+  );
+};
 
-export default SignInPage
+export default SignInPage;
