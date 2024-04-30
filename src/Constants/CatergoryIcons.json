@@ -37,21 +37,21 @@
 
     {
         "id": 6,
-        "caption": "Fozen",
+        "caption": "Frozen",
         "icon": "../Images/CategoryIcons/Frozen_Foods_Icon.png",
         "desciption": "Icon/Imgae for Frozen Food Poducts"
     },
 
     {
         "id": 7,
-        "caption": "Protein",
+        "caption": "Fruit",
         "icon": "../Images/CategoryIcons/Protein_Icon.png",
         "desciption": "Icon/Imgae for Protein Poducts"
     },
 
     {
         "id": 8,
-        "caption": "Snacks",
+        "caption": "Essentiales",
         "icon": "../Images/CategoryIcons/Snacks_Icon.png",
         "desciption": "Icon/Imgae for Snacks"
     }
