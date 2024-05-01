@@ -109,17 +109,19 @@ const SignInputBox = ({ type, placeholder, width, validationRegex, errorMessage,
     // Check confirmation only if confirmedValue is provided and inputValue is not empty
     if (confirmedValue !== undefined && inputValue !== '') {
       setConfirmError(inputValue !== confirmedValue);
-    } else {
+    } //if the confirmed value prop is undefined and if the input value is not empty
+     else {
       setConfirmError(false); // Reset confirmError if input field is empty
     }
   }, [inputValue, confirmedValue]);
 
+  // Handle changes in the input
   const handleChange = (e) => {
     const newValue = e.target.value;
     setInputValue(newValue);
     if (validationRegex) {
       validateInput(newValue);
-    }
+    } //Validates the new input based on the requirements if validationRegex is provided
     if (setValue) {
       setValue(newValue); // Update the password state in the parent component
     }
@@ -127,7 +129,7 @@ const SignInputBox = ({ type, placeholder, width, validationRegex, errorMessage,
 
   const validateInput = (value) => {
     setIsValid(validationRegex.test(value));
-  };
+  }; //Updates isValid state based on validation result
 
   const overallValidity = validationRegex ? (isValid && !confirmError) : !confirmError;
   const showError = inputValue !== '' && !overallValidity; // Show error only if input is not empty and overallValidity is false

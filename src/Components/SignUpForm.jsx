@@ -61,7 +61,7 @@ const SignUpForm = () => {
               placeholder="Confirm Password"
               width="w-[280px]"
               confirmedValue={password}
-              differentErrorMessage="Invalid password"
+              differentErrorMessage="Password does not match"
               />
             </div>
             <div className='flex flex-row mt-4 mb-10 gap-12 text-lg'>
