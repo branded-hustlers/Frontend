@@ -14,11 +14,8 @@ function App() {
         <Route path="/settings" element={<SettingsPage />} />
         <Route path="/personal-information" element={<PersonalInformationPage />} />
         <Route path="/shopPage" element={<ShopPage />} />
+        <Route path="/aboutUsPage" element={<AboutUsPage />} />
       </Routes>
-      <HomePage />
-      <PersonalInformationPage />
-      <SettingsPage />
-      <AboutUsPage />
       <SignInPage />
     </BrowserRouter>
   );
