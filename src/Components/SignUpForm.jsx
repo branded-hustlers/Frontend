@@ -8,7 +8,7 @@ const SignUpForm = () => {
   const USER_REGEX = /^[a-zA-Z][a-zA-Z0-9-_]{2,23}$/;
   const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   const PWD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,24}$/;
-
+//read on regex
   const [password, setPassword] = useState('');
 
   return (

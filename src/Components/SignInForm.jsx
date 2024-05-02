@@ -29,7 +29,7 @@ const SignInForm = () => {
               />
             </div>
             <div>
-            <p>Don't have an account? Sign In</p>
+            <p>Don't have an account? Sign Up</p>
             </div>
 
           </form>
