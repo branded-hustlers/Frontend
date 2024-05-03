@@ -87,7 +87,7 @@ const SignUpPage = () => {
                 </div>
                 
                 <div>
-                <p>Already have an account? <Link to='./Pages/SignUpPage'>Sign In</Link></p>
+                <p>Already have an account? <Link to='./SignInPage'>Sign In</Link></p>
                 </div>
 
               </form>

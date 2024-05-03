@@ -45,7 +45,7 @@ const SignInPage = () => {
             </div>
 
             <div className='my-8 text-green-800 flex'>
-            <p>Don't have an account? <Link to="./Pages/SignUpPage">Sign Up</Link></p>
+            <p>Don't have an account? <Link to='./SignUpPage'>Sign Up</Link></p>
             <p className='ml-52'> 
               <input
               type="checkbox"
