@@ -5,6 +5,7 @@ import PersonalInformationPage from "./Pages/PersonalInformationPage";
 import SettingsPage from "./Pages/SettingsPage";
 import AboutUsPage from "./Pages/AboutUsPage";
 import SignInPage from "./Pages/SignInPage";
+import SignUpPage from "./Pages/SignUpPage";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
         <Route path="/personal-information" element={<PersonalInformationPage />} />
         <Route path="/shopPage" element={<ShopPage />} />
         <Route path="/aboutUsPage" element={<AboutUsPage />} />
+        <Route path="/SignInPage" element={<SignInPage />} />
+        <Route path="/SignUpPage" element={<SignUpPage />} />
       </Routes>
       <SignInPage />
     </BrowserRouter>

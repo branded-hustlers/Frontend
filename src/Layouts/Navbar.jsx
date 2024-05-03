@@ -46,13 +46,13 @@ const Navbar = () => {
         </div>
 
         <div className=' flex items-center space-x-8 ml-10 mr-5'>
-          <a href="">
+          <Link to='./Pages/SignInPage'>
             <FontAwesomeIcon
               icon={faUser}
               size="xl"
               className=" text-[#343434]"
             />
-          </a>
+          </Link>
           <a href="">
             <FontAwesomeIcon
               icon={faCartShopping}

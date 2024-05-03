@@ -24,7 +24,7 @@ const SignInPage = () => {
       </div>
       <div>
         <div className='flex flex-grow w-[750px] rounded-tl-[65px] rounded-bl-[65px] bg-green-200 flex-col items-center justify-between px-14'>
-        <h1 className='text-green-700 text-5xl my-20 font-extrabold'>Sign In</h1>
+        <h1 className='text-green-700 text-5xl mt-24 mb-16 font-extrabold'>Sign In</h1>
             <form>            
           
             <div className='mt-10 mb-12 text-lg'>
@@ -37,7 +37,7 @@ const SignInPage = () => {
             <div className='my-12 text-lg'>
               <SignInputBox 
               type="password"
-              placeholder="password"
+              placeholder="Password"
               width="w-[609px]"
               validationRegex={PWD_REGEX}
               errorMessage="Password more than 7 characters have '0-9' and '!@#$%'"
