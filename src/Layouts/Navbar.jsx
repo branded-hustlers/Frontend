@@ -46,7 +46,7 @@ const Navbar = () => {
         </div>
 
         <div className=' flex items-center space-x-8 ml-10 mr-5'>
-          <Link to='./Pages/SignInPage'>
+          <Link to='./SignInPage'>
             <FontAwesomeIcon
               icon={faUser}
               size="xl"
