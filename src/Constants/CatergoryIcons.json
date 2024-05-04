@@ -3,7 +3,7 @@
     {
         "id": 1,
         "caption": "Beverages",
-        "icon": "../public/Images/CategoryIcons/Beverages_Icon.png",
+        "icon": "../Images/CategoryIcons/Beverages_Icon.png",
         "description": "Icon/image for the beverages category icon"
     },
 
@@ -44,14 +44,14 @@
 
     {
         "id": 7,
-        "caption": "Protein",
-        "icon": "../public/Images/CategoryIcons/Protein_Icon.png",
+        "caption": "Fruit",
+        "icon": "../Images/CategoryIcons/Fruit_Icon.png",
         "desciption": "Icon/Imgae for Protein Poducts"
     },
 
     {
         "id": 8,
-        "caption": "Snacks",
+        "caption": "Essentiales",
         "icon": "../Images/CategoryIcons/Snacks_Icon.png",
         "desciption": "Icon/Imgae for Snacks"
     }

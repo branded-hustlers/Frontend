@@ -16,32 +16,32 @@ const Settings = () => {
           <Sidebar />        
           <div className="flex-grow">
             <div>
-              <h1 className="text-green-700 text-center text-4xl mb-6">Settings</h1>            
+              <h1 className="text-green-700 text-center text-4xl mb-14">Settings</h1>            
             </div>
             <div>
-            <Line />
-              <section className='ml-16 my-6 text-green-600'>
+           
+              <section className='ml-[110px] my-6 text-green-600'>
                 <div className=' flex justify-between items-center mr-20'>
                  <div>
-                 <p>Languages</p>
+                 <p className="text-lg">Languages</p>
                  </div>
                  <Dropdown label="English" options={languages}/>
                 </div>
               </section>
             <Line />
-              <section className='ml-16 my-6 text-green-600'>
+              <section className='ml-[110px] my-6 text-green-600'>
                 <div className=' flex justify-between items-center mr-20'>
                  <div>
-                 <p>Theme</p>
+                 <p className="text-lg">Theme</p>
                  </div>
                  <Dropdown label="Light" options={themes} />
                 </div>
               </section>
             <Line />
-              <section className='ml-16 my-6 text-green-600'>
+              <section className='ml-[110px] my-6 text-green-600'>
                 <div className=' flex justify-between items-center mr-20'>
                  <div>
-                 <p>Notifications</p>
+                 <p className="text-lg">Notifications</p>
                  </div>
                  <SlidingButton />
                 </div>

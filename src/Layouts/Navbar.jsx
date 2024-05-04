@@ -27,7 +27,7 @@ const Navbar = () => {
 
         <div className=' flex flex-1 justify-center items-center gap-10 text-lg font-medium text-[]'>
          <Link to='/ ' className=" hover:text-green-500" >Home</Link>
-         <a href="" className=" hover:text-green-500">About Us</a>
+         <Link to='/AboutUsPage' className=" hover:text-green-500">About Us</Link>
          <a href="" className=" hover:text-green-500">Categories</a>
          <Link to='/ShopPage' className=" hover:text-green-500">Shop</Link>
         </div>
@@ -46,13 +46,13 @@ const Navbar = () => {
         </div>
 
         <div className=' flex items-center space-x-8 ml-10 mr-5'>
-          <a href="">
+          <Link to='./Pages/SignInPage'>
             <FontAwesomeIcon
               icon={faUser}
               size="xl"
               className=" text-[#343434]"
             />
-          </a>
+          </Link>
           <a href="">
             <FontAwesomeIcon
               icon={faCartShopping}
