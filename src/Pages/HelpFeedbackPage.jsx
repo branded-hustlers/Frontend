@@ -32,9 +32,14 @@ const HelpFeedbackPage = () => {
                         placeholder='Let us know what you think :)' 
                         className='px-6 py-[1.5rem] border-2 h-[200px] border-green-600 rounded-[15px] mb-8 overflow-hidden resize-y placeholder:text-green-500 outline-none'/>
                 </form>
-
-                <GreenButton
-                label='Submit'/>                  
+                
+                <div className='flex justify-center'>
+                <button className='flex justify-center items-center px-5 w-40 h-12 py-0.5 text-white text-xl font-semibold  bg-green-500 rounded-[200px] hover:bg-green-600'>
+                  Submit
+                </button>
+                </div>
+                
+                              
               </div>
               <div>
                 <h1 className="text-green-600 text-3xl mt-20">Frequesntly Asked Questions (FAQ) </h1>
@@ -45,7 +50,14 @@ const HelpFeedbackPage = () => {
                   />
                   <InfoDropdown
                   title="• Who are the couriers?"
-                  content="Couriers are independent professionals connected to our platform. With eagerness as fuel to their vehicles, they help you with your tasks as quickly and as effectively as possible. {*Space*} Want to be a courier? Great! Kindly fill out this form and we’ll get back to you:(insert link)"
+                  content={
+                    <div>
+                      Couriers are independent professionals connected to our platform. With eagerness as fuel to their vehicles, they help you with your tasks as quickly and as effectively as possible.
+                      <br />
+                      <br />
+                      Want to be a courier? Great! Kindly fill out this form and we’ll get back to you: (insert link)
+                    </div>
+                  }
                   />
                   <InfoDropdown 
                   title="• How is delivery cost calculated?"

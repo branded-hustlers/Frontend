@@ -16,7 +16,7 @@ const InfoDropdown = ({ title, content }) => {
         <FontAwesomeIcon icon={isActive ? faChevronUp : faChevronDown} className="text-gray-600" />
       </div>
       {isActive && (
-        <div className="dropdown-content bg-green-200 bg-opacity-50 p-4 mt-4 text-lg rounded-[20px]">
+        <div className="dropdown-content text-green-800 bg-green-200 bg-opacity-50 p-4 mt-4 text-lg rounded-[20px]">
           {content}
         </div>
       )}
