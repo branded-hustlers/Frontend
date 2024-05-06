@@ -27,10 +27,10 @@ const HelpFeedbackPage = () => {
                         />
 
                     <label className='text-green-600 text-lg my-2'>Comments</label>
-                        <input
+                        <textarea
                         type="text"
                         placeholder='Let us know what you think :)' 
-                        className='px-6 pt-[1.5rem] border-2 h-[200px] border-green-600 rounded-[15px] mb-8 placeholder:text-green-500 outline-none'/>
+                        className='px-6 py-[1.5rem] border-2 h-[200px] border-green-600 rounded-[15px] mb-8 overflow-hidden resize-y placeholder:text-green-500 outline-none'/>
                 </form>
 
                 <GreenButton
@@ -58,10 +58,10 @@ const HelpFeedbackPage = () => {
                 </div>
               </div>
 
-              <div className='text-green-700 text-lg my-8'>
+              <div className='text-green-700 text-lg mt-32 mb-10'>
                 <p>If you require any additinal service, please send an email to essentiailes.support@gmail.com</p>
                 <br />
-                <p>You will recieve a reply within 1-2 working days. Thank you for your patronage :0</p>
+                <p>You will recieve a reply within 1-2 working days. Thank you for your patronage :)</p>
               </div>
               
             </div>
