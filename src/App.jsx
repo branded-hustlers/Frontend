@@ -23,7 +23,6 @@ function App() {
         <Route path="/SignInPage" element={<SignInPage />} />
         <Route path="/SignUpPage" element={<SignUpPage />} />
       </Routes>
-      <HelpFeedbackPage />
     </BrowserRouter>
   );
 }

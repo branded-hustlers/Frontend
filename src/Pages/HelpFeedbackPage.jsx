@@ -15,7 +15,7 @@ const HelpFeedbackPage = () => {
           <Sidebar />        
           <div className="flex-grow mx-12">
             <div>
-              <h1 className="text-green-600 text-center text-4xl mb-16">Feedback and Support</h1>
+              <h1 className="text-green-600 text-center text-4xl mt-8 mb-16">Feedback and Support</h1>
               <div>
                 <h1 className="text-green-600 text-3xl mb-2">Feedback</h1>
                 <form className='flex flex-col'>
@@ -23,14 +23,14 @@ const HelpFeedbackPage = () => {
                         <input
                         type="text"
                         placeholder=""
-                        className=' px-6 h-[40px] border-2 border-green-600 rounded-[15px] mb-2 placeholder:text-green-500 outline-none'
+                        className=' px-6 h-[40px] border-2 text-green-900 border-green-600 rounded-[15px] mb-2 placeholder:text-green-500 outline-none'
                         />
 
                     <label className='text-green-600 text-lg my-2'>Comments</label>
                         <textarea
                         type="text"
                         placeholder='Let us know what you think :)' 
-                        className='px-6 py-[1.5rem] border-2 h-[200px] border-green-600 rounded-[15px] mb-8 overflow-hidden resize-y placeholder:text-green-500 outline-none'/>
+                        className='px-6 text-green-800 py-[1.5rem] border-2 h-[200px] border-green-600 rounded-[15px] mb-8 overflow-hidden resize-y placeholder:text-green-500 outline-none'/>
                 </form>
                 
                 <div className='flex justify-center'>
@@ -71,7 +71,7 @@ const HelpFeedbackPage = () => {
               </div>
 
               <div className='text-green-700 text-lg mt-32 mb-10'>
-                <p>If you require any additinal service, please send an email to essentiailes.support@gmail.com</p>
+                <p>If you require any additional service, please send an email to essentiailes.support@gmail.com</p>
                 <br />
                 <p>You will recieve a reply within 1-2 working days. Thank you for your patronage :)</p>
               </div>
