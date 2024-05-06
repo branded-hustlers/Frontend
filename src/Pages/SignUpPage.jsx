@@ -87,17 +87,21 @@ const SignUpPage = () => {
                 </div>
                 
                 <div>
-                <p>Already have an account? <Link to='./SignInPage'>Sign In</Link></p>
+                <p>Already have an account? <Link to='/SignInPage'>Sign In</Link></p>
                 </div>
 
               </form>
               
               <div className='flex flex-row gap-8 my-8'>
+                <Link to='/PersonalInformationPage'>
                 <GreenButton 
                 label="Sign Up"/>
+                </Link>
 
+                <Link to='/'>
                 <WhiteButton
                 label="Homepage"/>
+                </Link>
               </div>
         </div>
       </div>

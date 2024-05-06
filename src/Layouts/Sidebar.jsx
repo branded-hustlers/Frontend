@@ -7,6 +7,7 @@ import { faCog } from '@fortawesome/free-solid-svg-icons'
 import { faBoxOpen } from '@fortawesome/free-solid-svg-icons'
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Sidebar = () => {
 
@@ -17,16 +18,16 @@ const Sidebar = () => {
       <nav className="mt-2">
             <ul>
                 <li>
-                    <a href="/PersonalInformation.jsx" className={`block text-xl py-3 px-5 hover:bg-green-500 hover:text-white rounded-md ml-2 mr-2`}>
+                    <Link to="/PersonalInformationPage" className={`block text-xl py-3 px-5 hover:bg-green-500 hover:text-white rounded-md ml-2 mr-2`}>
                         <FontAwesomeIcon icon={faUser} className="ml-4 mr-12" />
                             Personal Information
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="/PurchaseHistoryPage.jsx" className={`block text-xl py-3 px-5 hover:bg-green-500 hover:text-white rounded-md ml-2 mr-2`}>
+                    <Link to="/PurchaseHistoryPage" className={`block text-xl py-3 px-5 hover:bg-green-500 hover:text-white rounded-md ml-2 mr-2`}>
                         <FontAwesomeIcon icon={faAddressBook} className="ml-4 mr-11" />
                             Purchase History
-                    </a>
+                    </Link>
                 </li>
                 <li>
                     <a href="Frontend/src/Pages/Wishlist" className={`block text-xl py-3 px-5 hover:bg-green-500 hover:text-white rounded-md ml-2 mr-2`}>
@@ -54,16 +55,16 @@ const Sidebar = () => {
                 </li>
                 <hr size="2"></hr>
                 <li>
-                    <a href="/src/Pages/Settings" className={`block text-xl py-2 px-4 hover:bg-green-500 hover:text-white rounded-md ml-2 mr-2`}>
+                    <Link to="/SettingsPage" className={`block text-xl py-2 px-4 hover:bg-green-500 hover:text-white rounded-md ml-2 mr-2`}>
                     <FontAwesomeIcon icon={faCog} className="ml-5 mr-10" />
                         Settings
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="/src/Pages/Help" className={`block text-xl py-2 px-4 hover:bg-green-500 hover:text-white rounded-md ml-2 mr-2`}>
+                    <Link to="/HelpFeedbackPage" className={`block text-xl py-2 px-4 hover:bg-green-500 hover:text-white rounded-md ml-2 mr-2`}>
                     <FontAwesomeIcon icon={faInfo} className="ml-7 mr-11" />
                         Help
-                    </a>
+                    </Link>
                 </li>
             </ul>
       </nav>

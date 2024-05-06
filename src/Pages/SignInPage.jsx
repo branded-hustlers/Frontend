@@ -45,7 +45,7 @@ const SignInPage = () => {
             </div>
 
             <div className='my-8 text-green-800 flex'>
-            <p>Don't have an account? <Link to='./SignUpPage'>Sign Up</Link></p>
+            <p>Don't have an account? <Link to='/SignUpPage'>Sign Up</Link></p>
             <p className='ml-52'> 
               <input
               type="checkbox"
@@ -59,11 +59,15 @@ const SignInPage = () => {
           </form>
           
           <div className='flex flex-row gap-8 mt-8 mb-12'>
-            <GreenButton 
-            label="Sign In"/>
+            <Link to='/PersonalInformationPage'>
+              <GreenButton 
+              label="Sign In"/>
+            </Link>
 
-            <WhiteButton
-            label="Homepage"/>
+            <Link to='/'>
+              <WhiteButton
+              label="Homepage"/>
+            </Link>
           </div>
         </div>
       </div>
