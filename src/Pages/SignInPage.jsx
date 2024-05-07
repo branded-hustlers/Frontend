@@ -23,7 +23,7 @@ const SignInPage = () => {
         <img className='h-[80%] w-[100%]' src="./Images/SignInSignOutImage.png" alt="LoginPicture" />
       </div>
       <div>
-        <div className='flex flex-grow w-[400px] lg:w-[750px] lg:rounded-tr-[1px] lg:rounded-br-[1px] rounded-tl-[65px] rounded-bl-[65px] md:rounded-tl-[65px] md:rounded-bl-[65px] sm:rounded-tr-[65px] sm:rounded-br-[65px] bg-green-200 flex-col items-center justify-between px-14'>
+        <div className='flex flex-grow w-[400px] lg:w-[750px] lg:rounded-tr-[1px] lg:rounded-br-[1px] rounded-tl-[65px] rounded-bl-[65px] rounded-tr-[65px] rounded-br-[65px] bg-green-200 flex-col items-center justify-between px-14'>
         <h1 className='text-green-700 text-3xl lg:text-5xl mt-24 mb-16 font-extrabold'>Sign In</h1>
             <form>            
           
