@@ -23,7 +23,7 @@ const SignInPage = () => {
         <img className='sm:display-none h-[80%] w-[100%]' src="./Images/SignInSignOutImage.png" alt="LoginPicture" />
       </div>
       <div>
-        <div className='flex flex-grow sm:w-[220px] max-w-[750px] rounded-tl-[65px] rounded-bl-[65px] bg-green-200 flex-col items-center justify-between px-14'>
+        <div className='flex flex-grow w-[300px] lg:w-[750px] rounded-tl-[65px] rounded-bl-[65px] bg-green-200 flex-col items-center justify-between px-14'>
         <h1 className='text-green-700 text-5xl mt-24 mb-16 font-extrabold'>Sign In</h1>
             <form>            
           
@@ -31,14 +31,14 @@ const SignInPage = () => {
               <SignInputBox 
               type="text"
               placeholder="Username or Email"
-              width="w-[609px]"
+              width="w-11/12"
               />
             </div>
             <div className='my-12 text-lg'>
               <SignInputBox 
               type="password"
               placeholder="Password"
-              width="w-[609px]"
+              width="w-11/12"
               validationRegex={PWD_REGEX}
               errorMessage="Password more than 7 characters have '0-9' and '!@#$%'"
               />
