@@ -23,18 +23,18 @@ const SignInPage = () => {
         <img className='h-[80%] w-[100%]' src="./Images/SignInSignOutImage.png" alt="LoginPicture" />
       </div>
       <div>
-        <div className='flex flex-grow w-[750px] lg:rounded-tr-[1px] lg:rounded-br-[1px] rounded-tl-[65px] rounded-bl-[65px] md:rounded-tl-[65px] md:rounded-bl-[65px] sm:rounded-tr-[65px] sm:rounded-br-[65px] bg-green-200 flex-col items-center justify-between px-14'>
-        <h1 className='text-green-700 text-5xl mt-24 mb-16 font-extrabold'>Sign In</h1>
+        <div className='flex flex-grow w-[400px] lg:w-[750px] lg:rounded-tr-[1px] lg:rounded-br-[1px] rounded-tl-[65px] rounded-bl-[65px] md:rounded-tl-[65px] md:rounded-bl-[65px] sm:rounded-tr-[65px] sm:rounded-br-[65px] bg-green-200 flex-col items-center justify-between px-14'>
+        <h1 className='text-green-700 text-3xl lg:text-5xl mt-24 mb-16 font-extrabold'>Sign In</h1>
             <form>            
           
-            <div className='mt-10 mb-12 text-lg'>
+            <div className='mt-10 mb-12 lg:text-lg'>
               <SignInputBox 
               type="text"
               placeholder="Username or Email"
               width="w-11/12"
               />
             </div>
-            <div className='my-12 text-lg'>
+            <div className='my-12 lg:text-lg'>
               <SignInputBox 
               type="password"
               placeholder="Password"
@@ -44,7 +44,7 @@ const SignInPage = () => {
               />
             </div>
 
-            <div className='my-8 text-green-800 flex'>
+            <div className='text-sm lg:text-lg my-8 text-green-800 flex'>
             <p>Don't have an account? <Link to='/SignUpPage'>Sign Up</Link></p>
             <p className='ml-52'> 
               <input
