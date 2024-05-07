@@ -142,7 +142,7 @@ const SignInputBox = ({ type, placeholder, width, validationRegex, errorMessage,
         value={inputValue}
         onChange={handleChange}
         placeholder={placeholder}
-        className={` border-b-2 ${overallValidity ? ' placeholder:text-green-700 border-green-600 bg-transparent' : 'placeholder:text-red-500 border-red-400 bg-red-300 bg-opacity-20'} outline-none h-14 contain ${width}`}
+        className={` border-b-2 ${overallValidity ? ' placeholder:text-green-700 border-green-600 bg-transparent' : 'placeholder:text-red-500 border-red-400 bg-red-300 bg-opacity-20'} outline-none h-14 contain sm:max-w-[150px] ${width}`}
       />
       {showError && <p className="text-red-300 text-xs">{confirmError ? differentErrorMessage : errorMessage}</p>}
     </div>

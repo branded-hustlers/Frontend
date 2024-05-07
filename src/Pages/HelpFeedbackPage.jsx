@@ -31,13 +31,17 @@ const HelpFeedbackPage = () => {
                         type="text"
                         placeholder='Let us know what you think :)' 
                         className='px-6 text-green-800 py-[1.5rem] border-2 h-[200px] border-green-600 rounded-[15px] mb-8 overflow-hidden resize-y placeholder:text-green-500 outline-none'/>
-                </form>
                 
                 <div className='flex justify-center'>
-                <button className='flex justify-center items-center px-5 w-40 h-12 py-0.5 text-white text-xl font-semibold  bg-green-500 rounded-[200px] hover:bg-green-600'>
+                <button 
+                type='submit'
+                className='flex justify-center items-center px-5 w-40 h-12 py-0.5 text-white text-xl font-semibold  bg-green-500 rounded-[200px] hover:bg-green-600'>
                   Submit
                 </button>
                 </div>
+
+                </form>
+                
                 
                               
               </div>
