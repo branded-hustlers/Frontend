@@ -24,21 +24,21 @@ const SignInPage = () => {
       </div>
       <div>
         <div className='flex flex-grow w-[400px] lg:w-[750px] lg:rounded-tr-[1px] lg:rounded-br-[1px] rounded-tl-[65px] rounded-bl-[65px] rounded-tr-[65px] rounded-br-[65px] bg-green-200 flex-col items-center justify-between px-14'>
-        <h1 className='text-green-700 text-3xl lg:text-5xl mt-24 mb-16 font-extrabold'>Sign In</h1>
+        <h1 className='text-green-700 text-4xl lg:text-5xl mt-24 mb-16 font-extrabold'>Sign In</h1>
             <form>            
           
-            <div className='mt-10 mb-12 lg:text-lg'>
+            <div className='mt-10 mb-16 lg:text-lg'>
               <SignInputBox 
               type="text"
               placeholder="Username or Email"
-              width="w-11/12"
+              width="w-full"
               />
             </div>
-            <div className='my-12 lg:text-lg'>
+            <div className='my-16 lg:text-lg'>
               <SignInputBox 
               type="password"
               placeholder="Password"
-              width="w-11/12"
+              width="w-full"
               validationRegex={PWD_REGEX}
               errorMessage="Password more than 7 characters have '0-9' and '!@#$%'"
               />
@@ -46,7 +46,7 @@ const SignInPage = () => {
 
             <div className='text-sm lg:text-lg my-8 text-green-800 flex'>
             <p>Don't have an account? <Link to='/SignUpPage'>Sign Up</Link></p>
-            <p className='ml-52'> 
+            <p className='ml-12 lg:ml-32'> 
               <input
               type="checkbox"
               checked={isChecked}
