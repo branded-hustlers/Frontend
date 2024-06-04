@@ -10,6 +10,31 @@ const SignInPage = () => {
 
   const [isChecked, setIsChecked] = useState(false);
 
+  const [username, setUsername] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+
+
+  const handleSignIn = async (event) => {
+    event.preventDefault()
+
+  const signInData = {
+    username: username,
+    email: email,
+    password: password,
+  };
+
+  const signInDataString = JSON.stringify(signInData)
+
+//Saves the data in the local memory and console
+    localStorage.setItem('signInData', signInDataString);
+
+    console.log('User Data:', signInData);
+//Sends a prompt to the user if the formData is properly saved
+    alert("Success")
+
+}
+
   const handleCheckboxChange = () => {
     setIsChecked(!isChecked);
   }
@@ -25,13 +50,14 @@ const SignInPage = () => {
       <div>
         <div className='flex flex-grow w-[400px] lg:w-[750px] lg:rounded-tr-[1px] lg:rounded-br-[1px] rounded-tl-[65px] rounded-bl-[65px] rounded-tr-[65px] rounded-br-[65px] bg-green-200 flex-col items-center justify-between px-14'>
         <h1 className='text-green-700 text-4xl lg:text-5xl mt-24 mb-16 font-extrabold'>Sign In</h1>
-            <form>            
-          
+            <form onSubmit={handleSignIn}>            
+
             <div className='mt-10 mb-16 lg:text-lg'>
               <SignInputBox 
               type="text"
               placeholder="Username or Email"
               width="w-full"
+              setValue={setUsername}
               />
             </div>
             <div className='my-16 lg:text-lg'>
@@ -40,7 +66,8 @@ const SignInPage = () => {
               placeholder="Password"
               width="w-full"
               validationRegex={PWD_REGEX}
-              errorMessage="Password more than 7 characters have '0-9' and '!@#$%'"
+              errorMessage="Password is incorrect"
+              setValue={setPassword}
               />
             </div>
 
@@ -56,10 +83,13 @@ const SignInPage = () => {
               Remember Me</p>
             </div>
 
-          </form>
-          
-          <div className='flex flex-row gap-8 mt-8 mb-12'>
-            <Link to='/PersonalInformationPage'>
+            <div className='flex flex-row gap-8 mt-8 mb-12'>
+
+              <button type="submit">
+                Tester
+              </button>
+
+            <Link to="/PersonalInformationPage">
               <GreenButton 
               label="Sign In"/>
             </Link>
@@ -69,6 +99,10 @@ const SignInPage = () => {
               label="Homepage"/>
             </Link>
           </div>
+
+          </form>
+          
+          
         </div>
       </div>
     </div>

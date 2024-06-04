@@ -1,5 +1,7 @@
 import {React, useState} from 'react'
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEye } from '@fortawesome/free-solid-svg-icons'
 import SignInputBox from '../Components/SignInputBox'
 import GreenButton from '../Components/GreenButton'
 import WhiteButton from '../Components/WhiteButton'
@@ -10,17 +12,21 @@ const SignUpPage = () => {
   const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   const PWD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,24}$/;
 
-  const [username, setUsername] = useState('');
-  const [email, setEmail] = useState('');
-  const [lastName, setLastName] = useState('');
-  const [otherNames, setOtherNames] = useState('');
-  const [phoneNumber, setPhoneNumber] = useState('');
-  const [dateOfBirth, setDateOfBirth] = useState('');
-  const [password, setPassword] = useState('');
+  const [username, setUsername] = useState('')
+  const [email, setEmail] = useState('')
+  const [lastName, setLastName] = useState('')
+  const [otherNames, setOtherNames] = useState('')
+  const [phoneNumber, setPhoneNumber] = useState('')
+  const [dateOfBirth, setDateOfBirth] = useState('')
+  const [password, setPassword] = useState('')
+  const [showPassword, setShowPassword] = useState(false)
+
+  //useState, regex, useEffect Friday
 
   const handleSignUp = async (event) => {
-    event.preventDefault();
+    event.preventDefault()
 
+//saves the form data as an object in this format
     const formData = {
       username: username,
       email: email,
@@ -29,43 +35,56 @@ const SignUpPage = () => {
       otherNames: otherNames,
       phoneNumber: phoneNumber,
       dateOfBirth: dateOfBirth
-    };
-  
-    console.log('User Data:', formData);
+    }
 
-    alert("Success")
+    const formDataString = JSON.stringify(formData)
 
-    //Link is where the api link will go
-    
-    /*
+//Saves the data in the local memory and console
+    /*localStorage.setItem('FormData', formDataString)*/
+
+    console.log('User Data:', formData)
+//Sends a prompt to the user if the formData is properly saved
+    /*alert("Success")*/
+
+    /*The promise for the form sumbission*/ 
     try {
-      const response = await fetch('{Link}', {
+      const response = await fetch('https://www.pythonanywhere.com/user/daberko/webapps/#id_daberko_pythonanywhere_com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify(formData)
-      });
+      })
 
       if (response.ok) {
-        const data = await response.json();
-        const { token } = data;
+        const data = await response.json() // Analysing JSON response
+        const { token } = data
 
         // Store JWT token in local storage
-        localStorage.setItem('token', token);
+        localStorage.setItem('token', token)
 
         // Redirect to another page or do something else upon successful signup
-        console.log('User signed up successfully!');
-      } else {
+        alert("User signed up successfully!")
+    } else {
         // Handle error response
-        console.error('Error signing up:', response.statusText);
-      }
-    } catch (error) {
-      console.error('Error signing up:', error.message);
+        let errorMessage
+        try {
+            const errorData = await response.json() // Analysing JSON error response
+            errorMessage = errorData.message || 'Unknown error' //Error message from system
+        } catch (error) {
+            errorMessage = 'Error occurred while processing response'
+        }
+        alert("Error signing up: " + errorMessage)
     }
-    */
-  };
+      } catch (error) {
+        alert("Error signing up: " + error.message)
+      }
+  }
 
+  //to toggle between the text state and the password state
+  const togglePasswordVisibility = () => {
+    setShowPassword(!showPassword);
+  }
 
   return (
     <>
@@ -79,14 +98,13 @@ const SignUpPage = () => {
         <div className='flex flex-grow w-[400px] lg:w-[750px] lg:rounded-tr-[1px] lg:rounded-br-[1px] rounded-tl-[65px] rounded-bl-[65px] rounded-tr-[65px] rounded-br-[65px] bg-green-200 flex-col items-center justify-between px-14'>
           <h1 className='text-green-700 text-5xl my-14 font-extrabold'>Sign Up</h1>
             <form onSubmit={handleSignUp}>            
-              <div className='flex flex-row my-4 gap-12 text-lg'>
+              <div className='flex flex-row my-4 gap-24 text-lg'>
                 <SignInputBox
                 type="text" 
                 placeholder="Last Name"
                 width="w-[280px]"
                 setValue={setLastName}
                 />
-                  
                 <SignInputBox
                 type="text" 
                 placeholder="Other Names"
@@ -94,7 +112,7 @@ const SignUpPage = () => {
                 setValue={setOtherNames}
                   />
               </div>
-                <div className='my-4 gap-12 text-lg'>
+                <div className='my-4 gap-24 text-lg'>
                   <SignInputBox 
                   type="text"
                   placeholder="Username"
@@ -114,9 +132,9 @@ const SignUpPage = () => {
                   setValue={setEmail}
                   />
                 </div>
-                <div className='flex flex-row my-4 gap-12 text-lg'>
+                <div className='flex flex-row my-4 gap-6 text-lg'>
                   <SignInputBox
-                  type="password" 
+                  type={showPassword ? "text" : "password"} 
                   placeholder="Password"
                   width="w-[280px]"
                   validationRegex={PWD_REGEX}
@@ -124,15 +142,21 @@ const SignUpPage = () => {
                   value={password}
                   setValue={setPassword}
                   />
+
+                  <button type="button" 
+                  onClick={togglePasswordVisibility}>
+                    {showPassword ? "Hide" : "Show"}
+                  </button> 
+                  
                   <SignInputBox
-                  type="password" 
+                  type={showPassword ? "text" : "password"} 
                   placeholder="Confirm Password"
                   width="w-[280px]"
                   confirmedValue={password}
                   differentErrorMessage="Password does not match"
                   />
                 </div>
-                <div className='flex flex-row mt-4 mb-10 gap-12 text-lg'>
+                <div className='flex flex-row mt-4 mb-10 gap-24 text-lg'>
                   <SignInputBox
                   type="number" 
                   placeholder="Phone Number"
