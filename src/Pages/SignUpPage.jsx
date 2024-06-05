@@ -1,7 +1,6 @@
-import {React, useState} from 'react'
+import {useState} from 'react'
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEye } from '@fortawesome/free-solid-svg-icons'
+import axios from 'axios'
 import SignInputBox from '../Components/SignInputBox'
 import GreenButton from '../Components/GreenButton'
 import WhiteButton from '../Components/WhiteButton'
@@ -37,7 +36,7 @@ const SignUpPage = () => {
       dateOfBirth: dateOfBirth
     }
 
-    const formDataString = JSON.stringify(formData)
+    //const formDataString = JSON.stringify(formData)
 
 //Saves the data in the local memory and console
     /*localStorage.setItem('FormData', formDataString)*/
@@ -46,22 +45,23 @@ const SignUpPage = () => {
 //Sends a prompt to the user if the formData is properly saved
     /*alert("Success")*/
 
-    /*The promise for the form sumbission*/ 
+    /*The promise for the form submission*/ 
     try {
-      const response = await fetch('https://www.pythonanywhere.com/user/daberko/webapps/#id_daberko_pythonanywhere_com', {
-        method: 'POST',
+      const response = await axios.post('https://www.pythonanywhere.com/user/daberko/webapps/#id_daberko_pythonanywhere_com', {
         headers: {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify(formData)
       })
 
-      if (response.ok) {
-        const data = await response.json() // Analysing JSON response
-        const { token } = data
+      if (response.status === 200) {
+        const data = response.data; // Analyzing JSON response
+        const { token } = data;
 
         // Store JWT token in local storage
         localStorage.setItem('token', token)
+
+        console.log("token:", token)
 
         // Redirect to another page or do something else upon successful signup
         alert("User signed up successfully!")
