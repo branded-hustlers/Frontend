@@ -1,4 +1,4 @@
-import { React, useState } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom';
 import SignInputBox from '../Components/SignInputBox'
 import GreenButton from '../Components/GreenButton'
@@ -11,7 +11,7 @@ const SignInPage = () => {
   const [isChecked, setIsChecked] = useState(false);
 
   const [username, setUsername] = useState('');
-  const [email, setEmail] = useState('');
+  const [email] = useState('');
   const [password, setPassword] = useState('');
 
 
@@ -72,7 +72,7 @@ const SignInPage = () => {
             </div>
 
             <div className='text-sm lg:text-lg my-8 text-green-800 flex'>
-            <p>Don't have an account? <Link to='/SignUpPage'>Sign Up</Link></p>
+            <p> Do not have an account? <Link to='/SignUpPage'>Sign Up</Link></p>
             <p className='ml-12 lg:ml-32'> 
               <input
               type="checkbox"

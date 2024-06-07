@@ -7,7 +7,7 @@ import { faMoneyBills } from '@fortawesome/free-solid-svg-icons'
 import { faCog } from '@fortawesome/free-solid-svg-icons'
 import { faBoxOpen } from '@fortawesome/free-solid-svg-icons'
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
-import React , { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 
 const Sidebar = () => {
@@ -60,6 +60,7 @@ const Sidebar = () => {
       <p className="text-green-600 text-2xl py-1 px-4">{expanded && "Your affiliation with us is greatly appreciated!"}</p>
       <nav className="mt-2">
             <ul>
+              <hr size="2"></hr>
                 <li>
                     <Link to="/PersonalInformationPage" 
                     className={`block text-xl my-1 py-3 px-5 hover:bg-green-500 hover:text-white rounded-md ml-2 mr-2 ${activeItem === 'PersonalInformation' ? 'bg-green-500 text-white' : 'hover:bg-green-500 hover:text-white'}`}
